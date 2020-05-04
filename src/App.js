@@ -1,15 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import FormLogin from './components/FormLogin';
 
 function App() {
   return (
     <div className="App">
-      <ul>
-        <li>Go to market</li>
-        <li>Buy food</li>
-        <li>Make dinner</li>
-      </ul>
+      <FormLogin/>
     </div>
   );
 }
