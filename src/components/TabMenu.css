@@ -9,42 +9,13 @@
 }
 .tabMenu > div {
   border: 0.1px solid rgba(0, 0, 0, 0.1);
-}
-.home div {
-   text-align: center;
-   color: #8CDC52;
-}
-
-.deals div {
-   text-align: center
-}
-
-.upload div {
-   text-align: center
-}
-
-.work div {
-   text-align: center
-}
-
-.settings div {
-   text-align: center
-}
-
-.tabMenu .home {
   flex-grow: 1;
+}
+.tabMenu > div:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-TOp: 2px solid #8CDC52;
+  border-top: 2px solid #8CDC52;
+  color: #8CDC52;
 }
-.deals {
-  flex-grow: 1;
-}
-.upload {
-  flex-grow: 1;
-}
-.work {  
-  flex-grow: 1;
-}
-.settings {  
-  flex-grow: 1;
+.tabMenu .item div {
+  text-align: center;
 }
