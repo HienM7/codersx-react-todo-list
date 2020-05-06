@@ -3,13 +3,14 @@ import './FormLogin.css';
 
 class FromLogin extends Component {
   render() {
+    const { email } = this.props;
     return (
       <div>
         <form>
           <h1>Sign in</h1>
           <div>
             <label for='user'>Username</label>
-            <input id="user" type="text" />
+            <input id="user" type="text" defaultValue={email || ""}/>
           </div>
           <div>
             <label for='pass'>Password</label>
