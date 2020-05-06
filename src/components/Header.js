@@ -6,10 +6,10 @@ class Header extends Component {
     return (
         <div className="header">
           <div className="back">
-            <img src="https://image.flaticon.com/icons/svg/545/545680.svg"/>
+            <img alt="" src="https://image.flaticon.com/icons/svg/545/545680.svg"/>
             <div>Go back</div>
           </div>
-          <img src="https://coders-x.com/images/events/codersx.png"/>
+          <img alt="" src="https://coders-x.com/images/events/codersx.png"/>
           <button>Sign up</button>
         </div>
      );
